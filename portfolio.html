@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- Copy from Bootstrap Website -->
+    <link                                                                                               
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"               
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div style="position: relative;">
+        <section id="header"  class="fixed-top" >
+          <nav class="navbar navbar-expand-lg navbar-light text-bg-primary ">                 <!--      Bootstrap - Navbar -->
+            <div class="container-fluid">
+              <a class="navbar-brand" style="font-size: 40px;" href="#">My Portfolio</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#main"
+                      >About</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
+        <section id="about" class="py-5 mt-5">
+          <div class="container">
+            <div class="row">                           <!--  creating a row -->
+              <div class="col-md-6">
+                <div style="padding-top: 150px">
+                  <h1>Hello,</h1>
+                  <h1>My Name is</h1>
+                  <h1 style="font-size: 150px">Venkat</h1>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="static/profile.webp"
+                  alt="Your Profile Picture"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <section id="education" class="py-3 text-center">
+          <div class="container">
+            <div class="container-fluid pt-5">
+              <h1 class="title">Education</h1>
+            </div>
+            <div class="row mx-auto pt-5">                         <!--  creating a row -->
+               <div class="card col-md-3 mx-auto text-bg-primary">              <!--     Basic card -->
+                <h2 class="py-3">SSC</h2>
+                <h4>2012-2013</h4>
+                <p class="py-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Excepturi, nemo dolor ex accusantium impedit officia alias
+                  maiores in velit corporis ullam adipisci rerum? Minima
+                  eligendi quisquam, quis nulla deserunt facere?`
+                </p>
+              </div>
+              <div class="card col-md-3 mx-auto text-bg-info">
+                <h2 class="py-3">Diploma in Mechanical Engineering</h2>
+                <h4>2013-2016</h4>
+                <p class="py-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Excepturi, nemo dolor ex accusantium impedit officia alias
+                  maiores in velit corporis ullam adipisci rerum? Minima
+                  eligendi quisquam, quis nulla deserunt facere?`
+                </p>
+              </div>
+              <div class="card col-md-3 mx-auto text-bg-primary">
+                <h2 class="py-3">Bachelor's of Technology in Computer Science</h2>
+                <h4>2016-2019</h4>
+                <p class="py-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Excepturi, nemo dolor ex accusantium impedit officia alias
+                  maiores in velit corporis ullam adipisci rerum? Minima
+                  eligendi quisquam, quis nulla deserunt facere?`
+                </p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    
+
+        <section id="projects" class="py-5">
+          <div class="container-fluid pt-5 py-5">
+            <h1 class="text-center">Projects</h1>
+          </div>
+          <div id="carouselExampleIndicators" class="carousel slide">         <!-- Carousel -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <section class="card text-center text-bg-primary">
+                  <h3 class="my-5">Terminal Library Management</h3>
+                  <h5>Full Stack Project</h5>
+                  <p class="w-100 py-5">
+                    Lorem ipsum dolor sit amet.<br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quae.<br>
+                    Lorem, ipsum dolor. <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestiae recusandae suscipit eaque sint illo? <br>
+                    Lorem ipsum dolor sit amet.
+                  </p>
+                </section>
+
+              </div>
+              <div class="carousel-item">
+                <section class="card text-center text-bg-info">
+                  <h3 class="my-5">Terminal Library Management</h3>
+                  <h5>Full Stack Project</h5>
+                  <p class="w-100 py-5">
+                    Lorem ipsum dolor sit amet.<br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quae.<br>
+                    Lorem, ipsum dolor. <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestiae recusandae suscipit eaque sint illo? <br>
+                    Lorem ipsum dolor sit amet.
+                  </p>
+                </section>
+              </div>
+              <div class="carousel-item">
+                <section class="card text-center text-bg-primary">
+                  <h3 class="my-5">Terminal Library Management</h3>
+                  <h5>Full Stack Project</h5>
+                  <p class="w-100 py-5">
+                    Lorem ipsum dolor sit amet.<br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quae.<br>
+                    Lorem, ipsum dolor. <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestiae recusandae suscipit eaque sint illo? <br>
+                    Lorem ipsum dolor sit amet.
+                  </p>
+                </section>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </section>
+
+        <section id="contact">
+            <div class="container shadow p-3 my-5 bg-body-tertiary rounded">        <!-- container with shadows -->
+              <div>
+                <h1 class="text-center py-5">Contact <span>info</span></h1>
+              </div>
+              <div class="row">
+                <div class="card col-md-3 mx-auto shadow p-3 my-5 bg-body-tertiary rounded">
+                  <div class="text-center"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+                  <div class="row">
+                    <h3>Phone</h3>
+                    <h5>+91 987 654321</h5>
+                    <h5>040 7654321</h5>
+                  </div>
+                </div>
+                <div class="card col-md-3 mx-auto shadow p-3 my-5 bg-body-tertiary rounded">
+                  <div class="text-center"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+                  <div class="contact-info">
+                    <h3>Email</h3>
+                    <h5>wajahat.webcog@gmail.com</h5>
+                    <h5>abcd@gmail.com</h5>
+                  </div>
+                </div>
+                <div class="card col-md-3 mx-auto shadow p-3 my-5 bg-body-tertiary rounded">
+                  <div class="text-center"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+                  <div class="contact-info">
+                    <h3>Address</h3>
+                    <h5>Fatikchhari, Chittagong, Bangladesh</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+
+      
+          <section id="footer">                                              <!-- simple footer -->
+            <div class="text-center text-bg-dark py-5">
+              <h4>Thanks for Visiting</h4>
+              
+            </div>
+          </section>
+  
+
+  </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
